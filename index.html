@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <title>GPT-3</title>
+</head>
+
+<body>
+    <div class="blur1"></div>
+    <header class="navsection">
+        <div class="container">
+            <nav class="navbar navbar-expand-xl navbar-dark bg-transparent">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="./assets/images/logo.svg" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="ham-menu" id="">
+                        <div class="ham-blur"></div>
+                        <div class="ham-blur2"></div>
+                        <i class="fa-solid fa-xmark"></i>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">What is GPT?</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Open AI</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Case Studies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Library</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li> -->
+                        </ul>
+                        <form class="d-flex">
+                            <button class="sign-in">Sign-in</button>
+                            <button class="sign-up">Sign-up</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="profile-section">
+        <div class="container">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="left col-xl-6">
+                        <h1 class="txt-grad f62 fw800 title-sp">Let’s Build Something
+                            amazing with GPT-3
+                            OpenAI
+                        </h1>
+                        <div class="desc">
+                            <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise
+                                blessing.
+                                Indulgence way
+                                everything joy alteration boisterous the attachment. Party we years to order allow asked
+                                of.
+                            </p>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Your Email Address"
+                                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Get
+                                    Started</button>
+                            </div>
+                        </div>
+                        <div class="people-images">
+                            <div class="profiles">
+                                <img class="e32" src="assets/images/profileimg/Ellipse 32.png" alt="">
+                                <img class="e33" src="assets/images/profileimg/Ellipse 33.png" alt="">
+                                <img class="e34" src="assets/images/profileimg/Ellipse 31.png" alt="">
+                                <img class="e35" src="assets/images/profileimg/Ellipse 34.png" alt="">
+                                <img class="e36" src="assets/images/profileimg/Ellipse 35.png" alt="">
+                                <img class="e37" src="assets/images/profileimg/Ellipse 36.png" alt="">
+                            </div>
+                            <p>1,600 people requested access a visit in last 24 hours</p>
+                        </div>
+                    </div>
+                    <div class="right col-xl-6">
+                        <img src="./assets/images/ai.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="companies">
+        <div class="container">
+            <div class="images slider">
+                <div class="slide">
+                    <img src="./assets/images/google.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/slack.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/atlassian.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/dropbox.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/shopify.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/google.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/slack.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/atlassian.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/dropbox.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/shopify.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="container-fluid">
+            <div class="info-section">
+                <div class="blur2"></div>
+                <div class="blur3"></div>
+                <div class="row1">
+                    <div class="main">
+                        <div class="dash"></div>
+                        <div class="heading">What is GPT-3</div>
+                    </div>
+                    <p>We so opinion friends me message as delight. Whole front do of plate heard oh ought. His
+                        defective nor
+                        convinced
+                        residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an
+                        insisted
+                        so humanity he.
+                        Friendly bachelor entrance to on by.</p>
+                </div>
+                <div class="row2">
+                    <div class="heading">The possibilities are beyond your imagination</div>
+                    <a href="#">Explore The Library</a>
+                </div>
+                <div class="row3">
+                    <div class="card">
+                        <div class="dash"></div>
+                        <div class="heading">Chatbots</div>
+                        <p>We so opinion friends me message as delight. Whole front do of plate heard oh ought.</p>
+                    </div>
+                    <div class="card">
+                        <div class="dash"></div>
+                        <div class="heading">Knowledgebase</div>
+                        <p>At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put
+                            impossible own apartments b</p>
+                    </div>
+                    <div class="card">
+                        <div class="dash"></div>
+                        <div class="heading">Education</div>
+                        <p>At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put
+                            impossible own apartments b</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="feature-section">
+        <div class="container">
+            <div class="container-fluid">
+                <div class="blur4"></div>
+                <div class="d-flex">
+                    <div class="left">
+                        <div class="heading">
+                            The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.
+                        </div>
+                        <a href="#">Request Early Access to Get Started</a>
+                    </div>
+                    <div class="right">
+                        <div class="row1">
+                            <div class="main">
+                                <div class="dash"></div>
+                                <div class="heading">Improving end distrusts instantly</div>
+                            </div>
+                            <p>From they fine john he give of rich he. They age and draw mrs like. Improving end
+                                distrusts
+                                may instantly was household
+                                applauded.
+                            </p>
+                        </div>
+                        <div class="row1">
+                            <div class="main">
+                                <div class="dash"></div>
+                                <div class="heading">Become the tended active</div>
+                            </div>
+                            <p>Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on
+                                become he tended active enable
+                                to.
+                            </p>
+                        </div>
+                        <div class="row1">
+                            <div class="main">
+                                <div class="dash"></div>
+                                <div class="heading">Message or am nothing</div>
+                            </div>
+                            <p>Led ask possible mistress relation elegance eat likewise debating. By message or am
+                                nothing amongst chiefly address.
+                            </p>
+                        </div>
+                        <div class="row1">
+                            <div class="main">
+                                <div class="dash"></div>
+                                <div class="heading">Really boy law county</div>
+                            </div>
+                            <p>Really boy law county she unable her sister. Feet you off its like like six. Among sex
+                                are leave law built now. In built
+                                table in an rapid blush.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="container-fluid">
+            <div class="future-section">
+                <div class="left">
+                    <img src="assets/images/possibility.png" alt="">
+                </div>
+                <div class="right">
+                    <a href="#">Request Early Access to Get Started</a>
+                    <div class="heading">
+                        The possibilities are beyond your imagination
+                    </div>
+                    <h4>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing.
+                        Indulgence way
+                        everything joy alteration boisterous the attachment. Party we years to order allow asked of.
+                    </h4>
+                    <a href="#" class="h4">Request Early Access to Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="register-section">
+        <div class="container">
+            <div class="container-fluid">
+                <div class="row1">
+                    <div class="left">
+                        <a href="#">Request Early Access to Get Started</a>
+                        <div class="heading">
+                            Register today & start exploring the endless possiblities.
+                        </div>
+                    </div>
+                    <div class="right"><button>Get Started</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="information">
+        <div class="container">
+            <div class="container-fluid">
+                <div class="heading">
+                    A lot is happening,
+                    We are blogging about it.
+                </div>
+                <div class="row1">
+                    <div class="left">
+                        <div class="blog1">
+                            <div class="image-wrapper">
+                                <img src="assets/images/blog01.png" alt="">
+                            </div>
+                            <div class="content">
+                                <div class="date">Sep 26, 2021</div>
+                                <p>GPT-3 and Open AI is the future. Let us exlore how it is?</p>
+                                <div class="article">Read Full Article</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="row2">
+                            <div class="blog2">
+                                <div class="image-wrapper">
+                                    <img src="assets/images/blog02.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <div class="date">Sep 26, 2021</div>
+                                    <p>GPT-3 and Open AI is the future. Let us exlore how it is?</p>
+                                    <div class="article">Read Full Article</div>
+                                </div>
+                            </div>
+                            <div class="blog2">
+                                <div class="image-wrapper">
+                                    <img src="assets/images/blog02.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <div class="date">Sep 26, 2021</div>
+                                    <p>GPT-3 and Open AI is the future. Let us exlore how it is?</p>
+                                    <div class="article">Read Full Article</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row3">
+                            <div class="blog2">
+                                <div class="image-wrapper">
+                                    <img src="assets/images/blog02.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <div class="date">Sep 26, 2021</div>
+                                    <p>GPT-3 and Open AI is the future. Let us exlore how it is?</p>
+                                    <div class="article">Read Full Article</div>
+                                </div>
+                            </div>
+                            <div class="blog2">
+                                <div class="image-wrapper">
+                                    <img src="assets/images/blog02.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <div class="date">Sep 26, 2021</div>
+                                    <p>GPT-3 and Open AI is the future. Let us exlore how it is?</p>
+                                    <div class="article">Read Full Article</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-section">
+        <div class="container">
+            <div class="container-fluid">
+                <div class="upper-section">
+                    <div class="heading">
+                        Do you want to step in to the future before others
+                    </div>
+                    <button>Request Early Access</button>
+                </div>
+                <div class="bottom-section">
+                    <div class="left">
+                        <img src="assets/images/logo.svg" alt="">
+                        <p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
+                    </div>
+                    <div class="right">
+                        <div class="links">
+                            <span class="bold">Links</span>
+                            <span>Overons</span>
+                            <span>Social Media</span>
+                            <span>Counters</span>
+                            <span>Contact</span>
+                        </div>
+                        <div class="company">
+                            <span class="bold">Company</span>
+                            <span>Terms & Conditions</span>
+                            <span>Privacy Policy</span>
+                            <span>Contacy</span>
+                        </div>
+                        <div class="getintouch">
+                            <span class="bold">Get in touch</span>
+                            <span>Crechterwoord K12 182 DK Alknjkcb</span>
+                            <span>085-132567</span>
+                            <span>info@payme.net</span>
+                        </div>
+                    </div>
+                </div>
+                <footer><span>© 2021 GPT-3. All rights reserved.</span></footer>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

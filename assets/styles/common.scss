@@ -1,0 +1,39 @@
+* {
+    // box-sizing: border-box;
+    // font-family: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope", sans-serif !important;
+    background: #040c18;
+    // position: relative;
+}
+
+// Utilities
+
+.txt-grad {
+    background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title-sp {
+    letter-spacing: -0.04em;
+}
+
+.fw800 {
+    font-weight: 800;
+}
+.f62 {
+    font-size: 3.375rem;
+    line-height: 61px;
+    letter-spacing: -0.04em;
+    @media only screen and (max-width: 1024px) {
+        font-size: 3rem;
+    }
+}
+.f34 {
+    font-size: 2.125rem;
+}
