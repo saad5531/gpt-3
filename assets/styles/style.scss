@@ -21,6 +21,8 @@ body {
 
 .navsection {
     margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
     @media only screen and (max-width: 1024px) {
         position: fixed;
         margin-top: 0px;
@@ -77,6 +79,7 @@ body {
             top: -75px;
             left: -306px;
             filter: blur(134px);
+            display: none;
         }
         .ham-blur2 {
             background: #377cc7;
@@ -86,6 +89,7 @@ body {
             top: 700px;
             right: -306px;
             filter: blur(134px);
+            display: none;
         }
         i {
             display: none;
@@ -123,12 +127,14 @@ body {
             width: 152px;
             height: 58px;
         }
-        margin-top: 20px;
-        width: 100%;
         @media only screen and (max-width: 1024px) {
             justify-content: flex-start;
             flex-direction: column;
             margin-left: 75px;
+        }
+        @media only screen and (max-width:600px) {
+            width: 100%;
+        margin-top: 20px;
         }
         .sign-in {
             background: transparent;

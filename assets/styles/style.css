@@ -25,6 +25,12 @@ body {
 
 .navsection {
   margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -103,6 +109,7 @@ body {
   left: -306px;
   -webkit-filter: blur(134px);
           filter: blur(134px);
+  display: none;
 }
 
 .navsection .ham-menu .ham-blur2 {
@@ -114,6 +121,7 @@ body {
   right: -306px;
   -webkit-filter: blur(134px);
           filter: blur(134px);
+  display: none;
 }
 
 .navsection .ham-menu i {
@@ -153,11 +161,6 @@ body {
   }
 }
 
-.navsection .d-flex {
-  margin-top: 20px;
-  width: 100%;
-}
-
 .navsection .d-flex button {
   width: 152px;
   height: 58px;
@@ -173,6 +176,13 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     margin-left: 75px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navsection .d-flex {
+    width: 100%;
+    margin-top: 20px;
   }
 }
 
